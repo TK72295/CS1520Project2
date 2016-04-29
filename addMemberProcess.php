@@ -1,4 +1,5 @@
 <?php
+	//Insert new member into database
 	session_start();
 	require_once('dbconnect.php');
 	$name = $_POST['name'];

@@ -187,6 +187,7 @@
         interval: 5000 //changes the speed
     })
 
+    //Added some javascript to send the query to database and tell if completed
     $('input[type="submit"]').on('click', function(e){
         e.preventDefault();
         var myText = $('textarea').val();

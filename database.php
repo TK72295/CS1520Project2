@@ -35,6 +35,8 @@
 
         <script type="text/javascript" src="js/jquery.js"></script>
 
+
+        <!--Using a combination of php and javascript, we allow admin to add new members -->
         <?php
         if($_SESSION['permissions'] == 1){
                 ?>

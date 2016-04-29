@@ -19,12 +19,16 @@
 
 </head>
 <body>
+
     <?php
         include 'navigation.php';
     ?>
+
     <div class="container">
         <div class="row">
             <div class="col-md-6">
+
+                <!-- Make our form for both logging in and registering-->
                 <form class="form" method="POST" action="loginProcess.php">
                     <h2>Login</h2>
                     <label>Email/Username:</label>
@@ -38,6 +42,7 @@
                     <input type="button" name="login" id="login" value="Login">
                     <input type="button" name="register" id="register" value="Register">
                 </form>
+                
             </div>
             <div class="col-md-6">
                 <img class="img-responsive" src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/576058_10150939678438483_1412937661_n.jpg?oh=10767842770255559f573d492fe8a4b9&oe=5768D6DD" alt="">

@@ -1,4 +1,5 @@
 <?php
+	//Check if user exists
 	session_start();
 	require_once('dbconnect.php');
 	$email = $_POST['email'];

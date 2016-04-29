@@ -1,2 +1,4 @@
-# CS1520Project1
-Tyler Kim Project 1; Panther Judo Club webpage.  The Contact form input is placed into the text.txt file.  Project makes use of the modern business Bootstrap template.# CS1520Project2
+Tyler Kim CS1520 Project2; Panther Judo Club Webpage.  
+
+I updated the website to include the ability to register or login as a user.  The main benefit of this is if you login using the Email/Username of 'admin' with password 'admin', you can now add members to the database on the fly.
+In addition, jQuery/Javascript are used to check login forms and submit to a php script to handle login/registration.  Javascript is also used to update the contact form to tell the user that their submission was completed and to tell admin if their user add was done properly.
