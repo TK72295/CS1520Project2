@@ -1,0 +1,14 @@
+Tyler Kim 
+tak90@pitt.edu
+
+What did you change/enhance from part 1?
+I improved the contact us section; instead of writing to text file, all submissions are added to the database and identify if they are a logged in member.  I moved some of the code into new files to make things a bit more readable (ex: in the members page I use updateTable.php to update the table).
+
+If there was a third part to the class project, what would you like to implement?
+I would like to add a forum portion, where users can publically leave comments or communicate with other members.  I would also like to make my members table update asynchronously instead of on page refresh.  
+
+What did you learn between part 1 and part 2?
+Between parts 1 and 2, I learned about javascript and jQuery and how they can make my pages update asynchronously.  I became more comfortable with databases and database access in PHP.  I also became more comfortable with selectors in CSS and jQuery and how to work with dynamically created elements.  I also had the chance to use Amazon AWS EC2 servers and RDS databases in conjunction with myPHPAdmin.
+
+What did you like about this project? How could it have been better?
+I liked the fact that I was given free reign on the content of my website as long as I implemented the requirements.  I think that the project could have been better if we were exposed to javascript a bit earlier, as some of the PHP I used in part 1 could probably have been better done with javascript.
